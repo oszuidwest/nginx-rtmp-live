@@ -3,7 +3,7 @@ docker rm livestream
 
 wget https://raw.githubusercontent.com/oszuidwest/nginx-rtmp-live/main/nginx.conf -O /root/nginx.conf.template
 
-docker run -it \
+docker run -d \
   --restart unless-stopped \
   --name livestream \
   -p 1935:1935 -p 80:80 \
