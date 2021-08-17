@@ -1,4 +1,4 @@
-ocker stop livestream
+docker stop livestream
 docker rm livestream
 
 wget https://raw.githubusercontent.com/oszuidwest/nginx-rtmp-live/main/nginx.conf -O /root/nginx.conf.template
