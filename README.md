@@ -11,3 +11,5 @@ Scripts to run a docker image that streams live tv. Based on the docker containe
 - Run ssl.sh to get the https cert
 - Run stream.sh to download and build the docker container
 - When everything works, replace `docker run -it` with `docker run -d` in `stream.sh` to run the container in the background
+
+⚠️ This setup let's everyone stream to the server. You should put a firewall in place to lock it down ⚠️
