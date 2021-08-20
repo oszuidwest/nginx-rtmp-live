@@ -1,6 +1,6 @@
 # nginx-rtmp-live
 
-Scripts to run a docker image that streams live tv. Based on the docker container [image alfg/nginx-rtmp](https://hub.docker.com/r/alfg/nginx-rtmp/). 
+Scripts to run a docker image that streams live tv. Based on the docker container [image alfg/nginx-rtmp](https://hub.docker.com/r/alfg/nginx-rtmp/). It assumes you use Cloudflare for your domain and Let's Encrypt for SSL certificates.
 
 ## How to run
 - Install Debian 11
