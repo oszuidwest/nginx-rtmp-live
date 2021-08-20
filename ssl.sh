@@ -1,0 +1,1 @@
+ certbot --text --agree-tos --email raymon@zuidwestfm.nl -d live.zuidwesttv.nl --preferred-challenges dns --expand --renew-by-default --dns-cloudflare --dns-cloudflare-credentials cloudflare.ini certonly
