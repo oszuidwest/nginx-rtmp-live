@@ -11,3 +11,6 @@ docker run -it \
   --mount type=bind,source="/etc/letsencrypt/live/live.zuidwesttv.nl/privkey.pem",target="/opt/certs/live.zuidwesttv.nl.key" \
   --mount type=bind,source="/etc/letsencrypt/live/live.zuidwesttv.nl/fullchain.pem",target="/opt/certs/live.zuidwesttv.nl.crt" \
   alfg/nginx-rtmp
+  
+docker exec livestream touch /www/static/index.html
+docker exec livestream rm /www/static/player.html
