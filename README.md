@@ -7,7 +7,7 @@ Scripts to run a docker image that streams live tv. Based on the docker containe
 - Install Docker [using the official guide](https://docs.docker.com/engine/install/debian/)
 - Install `certbot` and `python3-certbot-dns-cloudflare` with apt
 - Download `stream.sh`, `ssl.sh` and `cloudflare.ini`
-- Replace hardcoded values in `stream.sh` and `ssl.sh` and `nginx.conf`
+- Replace hardcoded values in `stream.sh` and `ssl.sh` and `nginx.conf.template`
 - Enter your Cloudflare API Key in `cloudflare.ini`
 - Run ssl.sh to get the https cert
 - Run stream.sh to download and build the docker container
